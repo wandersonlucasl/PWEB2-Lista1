@@ -1,0 +1,5 @@
+let x1 = Number(prompt("Fuma a quantos anos?"))
+let x2 = Number(prompt("Fuma quantos cigarros por dia?"))
+let x3 = Number(prompt("O preço da carteira de cigarros"))
+n1 = (x1 * 365) * (x2) * (x3 / 20)
+document.write("Você já gastou " + n1 + " reais com cigarro")
